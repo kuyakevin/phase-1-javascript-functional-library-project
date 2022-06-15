@@ -1,0 +1,47 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-06-15T20:04:56.699Z",
+    "end": "2022-06-15T20:04:58.555Z",
+    "duration": 1856
+  },
+  "tests": [
+    {
+      "title": "calls alert with each element passed",
+      "fullTitle": "index.js myEach calls alert with each element passed",
+      "duration": 8,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "calls alert properly on object values",
+      "fullTitle": "index.js myEach calls alert properly on object values",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected { Spy, 4 calls } to have been called with [ 1 ]",
+        "showDiff": true,
+        "expected": [
+          1
+        ],
+        "stack": "AssertionError: expected { Spy, 4 calls } to have been called with [ 1 ]\n    at /home/kuyakevin/Development/code/phase-1/phase-1-javascript-functional-library-project/test/indexTest.js:25:72\n    at Array.forEach (<anonymous>)\n    at Context.<anonymous> (test/indexTest.js:25:17)\n    at processImmediate (node:internal/timers:466:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "calls alert with each element passed",
+      "fullTitle": "index.js myEach calls alert with each element passed",
+      "duration": 8,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
